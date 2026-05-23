@@ -174,5 +174,9 @@ namespace laboratoriPizzeriaCampusExpress
             lblEstado.Text = string.Format("✅ Pedido registrado para {0}", cliente);
             ActualizarUI();	
         }
+		void LstPremiunSelectedIndexChanged(object sender, EventArgs e)
+		{
+	
+		}
     }
 }
